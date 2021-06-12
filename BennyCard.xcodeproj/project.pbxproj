@@ -12,6 +12,7 @@
 		FED9396426750ABE0090B56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED9396326750ABE0090B56B /* Assets.xcassets */; };
 		FED9396726750ABE0090B56B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED9396626750ABE0090B56B /* Preview Assets.xcassets */; };
 		FED939712675104A0090B56B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED939702675104A0090B56B /* Pacifico-Regular.ttf */; };
+		FED93973267521110090B56B /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED93972267521110090B56B /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FED9396626750ABE0090B56B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FED9396826750ABE0090B56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FED939702675104A0090B56B /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		FED93972267521110090B56B /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FED9396326750ABE0090B56B /* Assets.xcassets */,
 				FED9396826750ABE0090B56B /* Info.plist */,
 				FED9396526750ABE0090B56B /* Preview Content */,
+				FED93972267521110090B56B /* InfoView.swift */,
 			);
 			path = BennyCard;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED9396226750ABB0090B56B /* ContentView.swift in Sources */,
+				FED93973267521110090B56B /* InfoView.swift in Sources */,
 				FED9396026750ABB0090B56B /* BennyCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
