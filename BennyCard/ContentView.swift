@@ -24,11 +24,12 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 25))
                 Divider()
-                InfoView(text: "+254 799 584 705", imageName: "phone.fill")
-                InfoView(text: "benny@gmail.com", imageName: "envelope.fill")
+                InfoView(text: "+254 712 345 678", imageName: "phone.fill")
+                InfoView(text: "bennyhinnotieno@gmail.com", imageName: "envelope.fill")
             }
             
         }
+ 
         
     }
 }
@@ -36,6 +37,9 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .colorScheme(.dark)
+            .background(Color.black)
+            .previewDevice("iPhobe 12 Pro")
     }
 }
 
